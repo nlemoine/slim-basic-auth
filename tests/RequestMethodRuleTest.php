@@ -31,11 +31,11 @@ SOFTWARE.
 
 namespace Tuupola\Middleware\HttpBasicAuthentication;
 
-use PHPUnit\Framework\TestCase;
 use Laminas\Diactoros\Response;
 use Laminas\Diactoros\ServerRequest;
 use Laminas\Diactoros\ServerRequestFactory;
 use Laminas\Diactoros\Uri;
+use PHPUnit\Framework\TestCase;
 
 class RequestMethodRuleTest extends TestCase
 {
