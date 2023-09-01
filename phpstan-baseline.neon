@@ -1,0 +1,51 @@
+parameters:
+	ignoreErrors:
+		-
+			message: "#^Method Tuupola\\\\Middleware\\\\HttpBasicAuthentication\\:\\:after\\(\\) is unused\\.$#"
+			count: 1
+			path: src/HttpBasicAuthentication.php
+
+		-
+			message: "#^Method Tuupola\\\\Middleware\\\\HttpBasicAuthentication\\:\\:authenticator\\(\\) is unused\\.$#"
+			count: 1
+			path: src/HttpBasicAuthentication.php
+
+		-
+			message: "#^Method Tuupola\\\\Middleware\\\\HttpBasicAuthentication\\:\\:before\\(\\) is unused\\.$#"
+			count: 1
+			path: src/HttpBasicAuthentication.php
+
+		-
+			message: "#^Method Tuupola\\\\Middleware\\\\HttpBasicAuthentication\\:\\:error\\(\\) is unused\\.$#"
+			count: 1
+			path: src/HttpBasicAuthentication.php
+
+		-
+			message: "#^Method Tuupola\\\\Middleware\\\\HttpBasicAuthentication\\:\\:ignore\\(\\) is unused\\.$#"
+			count: 1
+			path: src/HttpBasicAuthentication.php
+
+		-
+			message: "#^Method Tuupola\\\\Middleware\\\\HttpBasicAuthentication\\:\\:path\\(\\) is unused\\.$#"
+			count: 1
+			path: src/HttpBasicAuthentication.php
+
+		-
+			message: "#^Method Tuupola\\\\Middleware\\\\HttpBasicAuthentication\\:\\:relaxed\\(\\) is unused\\.$#"
+			count: 1
+			path: src/HttpBasicAuthentication.php
+
+		-
+			message: "#^Method Tuupola\\\\Middleware\\\\HttpBasicAuthentication\\:\\:rules\\(\\) is unused\\.$#"
+			count: 1
+			path: src/HttpBasicAuthentication.php
+
+		-
+			message: "#^Method Tuupola\\\\Middleware\\\\HttpBasicAuthentication\\:\\:secure\\(\\) is unused\\.$#"
+			count: 1
+			path: src/HttpBasicAuthentication.php
+
+		-
+			message: "#^Method Tuupola\\\\Middleware\\\\HttpBasicAuthentication\\:\\:users\\(\\) is unused\\.$#"
+			count: 1
+			path: src/HttpBasicAuthentication.php
