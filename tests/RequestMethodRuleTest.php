@@ -32,10 +32,10 @@ SOFTWARE.
 namespace Tuupola\Middleware\HttpBasicAuthentication;
 
 use PHPUnit\Framework\TestCase;
-use Zend\Diactoros\Response;
-use Zend\Diactoros\ServerRequest;
-use Zend\Diactoros\ServerRequestFactory;
-use Zend\Diactoros\Uri;
+use Laminas\Diactoros\Response;
+use Laminas\Diactoros\ServerRequest;
+use Laminas\Diactoros\ServerRequestFactory;
+use Laminas\Diactoros\Uri;
 
 class RequestMethodRuleTest extends TestCase
 {
