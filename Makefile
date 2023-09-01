@@ -19,7 +19,7 @@ vendor: $(wildcard composer.lock)
 	composer install --prefer-dist
 
 lint: vendor
-	vendor/bin/phplint . --exclude=vendor/
+	vendor/bin/phplint src tests --exclude=vendor/
 	vendor/bin/ecs check src tests
 
 lint-fix: vendor
